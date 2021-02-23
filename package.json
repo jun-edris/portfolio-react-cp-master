@@ -45,5 +45,16 @@
   },
   "devDependencies": {
     "prettier": "^2.2.1"
+  },
+  "description": "![ReactJS Resume Website Template](portfolio.png?raw=true 'ReactJS Resume Website Template')",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jun-edris/portfolio-react-cp-master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jun-edris/portfolio-react-cp-master/issues"
   }
 }
