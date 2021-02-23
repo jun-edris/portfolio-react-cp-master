@@ -61,10 +61,10 @@ https://fontawesome.com/icons?d=gallery */
 			skillName: 'css3',
 			fontAwesomeClassname: 'fab fa-css3-alt',
 		},
-		// {
-		//   skillName: "sass",
-		//   fontAwesomeClassname: "fab fa-sass"
-		// },
+		{
+			skillName: 'Bootstrap',
+			fontAwesomeClassname: 'fab fa-bootstrap',
+		},
 		{
 			skillName: 'JavaScript',
 			fontAwesomeClassname: 'fab fa-js',
@@ -74,13 +74,17 @@ https://fontawesome.com/icons?d=gallery */
 			fontAwesomeClassname: 'fab fa-react',
 		},
 		{
+			skillName: 'Java',
+			fontAwesomeClassname: 'fab fa-java',
+		},
+		{
+			skillName: 'Android',
+			fontAwesomeClassname: 'fab fa-android',
+		},
+		{
 			skillName: 'nodejs',
 			fontAwesomeClassname: 'fab fa-node',
 		},
-		// {
-		//   skillName: "swift",
-		//   fontAwesomeClassname: "fab fa-swift"
-		// },
 		{
 			skillName: 'npm',
 			fontAwesomeClassname: 'fab fa-npm',
@@ -129,7 +133,7 @@ const techStack = {
 	experience: [
 		{
 			Stack: 'Frontend / Design', //Insert stack or technology you have experience in
-			progressPercentage: '90%', //Insert relative proficiency in percentage
+			progressPercentage: '70%', //Insert relative proficiency in percentage
 		},
 		{
 			Stack: 'Backend',
@@ -187,7 +191,7 @@ const openSource = {
 	githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
 	githubUserName: 'jun-edris', // Change to your github username to view your profile in Contact Section.
 	showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
-	display: true, // Set false to hide this section, defaults to true
+	display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -338,7 +342,7 @@ const contactInfo = {
 	title: emoji('Contact Me ☎️'),
 	subtitle:
 		'Discuss a project or just want to say hi? My Inbox is open for all.',
-	number: '+639158463439',
+	number: '+63 (915) 846 3439',
 	email_address: 'juned.buico@gmail.com',
 };
 
